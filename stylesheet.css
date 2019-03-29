@@ -81,18 +81,13 @@ h1 {
     padding-bottom: 50px;
 }
 
-.about {
-    display: grid;
-    grid-template-columns: 49% 2% 49%;
-}
+
 
 .imgside {
     text-align: center;
 }
 
-.textside {
-    max-width: 80%;
-}
+
 
 #wildbase img {
     max-width: 90%;
@@ -119,11 +114,6 @@ h4 {
     border-bottom: 0.3vw solid #000;
     text-align: left;
     margin-bottom: 1vw;
-}
-
-#intro {
-    display: grid;
-    grid-template-columns: 50% auto;
 }
 
 #footer {
@@ -160,20 +150,7 @@ h4 {
     margin-right: 10%;
 }
 
-.byvideo {
-    display: grid;
-    grid-template-columns: 40% 5% 50%;
-}
 
-.byvideo2 {
-    display: grid;
-    grid-template-columns: 1% 50% 5% 40%;
-}
-
-.halftext {
-    display: grid;
-    grid-template-columns: 49% 2% 49%;
-}
 
 .halftext img {
     max-width: 90%;
@@ -184,13 +161,51 @@ h4 {
     text-align: center;
 }
 
-.pushright {
+/* This @media call contains many of the grids for the website and divs that push text towards the center, so that making your window very small removes the grids entirely and aligns divs on top of each other. */
+@media screen and (min-width: 800px) {
+    
+    .about {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    }
+    
+    .byvideo {
+    display: grid;
+    grid-template-columns: 40% 5% 50%;
+    }
+
+    .byvideo2 {
+    display: grid;
+    grid-template-columns: 1% 50% 5% 40%;
+    }
+
+    .halftext {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    }
+    
+    .pushright {
     padding-left: 20px;
     padding-top: 30px;
-}
+    }
 
-.pushleft {
+    .pushleft {
     padding-right: 20px;
     padding-top: 30px;
+    }
+    
+    #intro {
+    display: grid;
+    grid-template-columns: 50% auto;
+    }
+    
+    .video {
+    margin-left: 10px;
+    text-align: center;
+    }
+    
+    .textside {
+    max-width: 80%;
+    }
+    
 }
-
