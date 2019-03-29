@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+    <meta charset="utf-8">
+    <title>MARTIAN KILLER GAMES - Mystlike</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    
+    <body>
+    
+        <div id="header">
+
+            <div><img src="martian%20blue.svg"></div>
+            <div id="titletxt"><h1>MARTIAN KILLER!</h1></div>
+            <div id="nav"><a href="index.html">home</a><br><a href="wildbase.html">wildbase games</a><br><span>mystlike</span></div>
+            
+        </div>
+        
+        <div id="mystlike">
+        
+        <h2>Mystlike &#9733;</h2>
+            
+            <div class="halftext">
+                
+                <div class="pushright"><p>Turtle Island’s design was inspired by the islands in Legend of Zelda: Windwaker, which feel organically structured while you walk around on them but are clearly based on a drawn shape when viewed on the map from above. The central “shell” area provides a sort of hub that the player starts in, as well as the final puzzle. The fanned-out “front fins” provide isolated areas for puzzles to take place in. The back end of the turtle is an optional area that can be explored and that will contain some collectable items.</p>
+                
+                <p>When making the actual turtle island in Unity, I tried to make it more asymmetrical and organic in shape. The back half of the turtle takes the form of sand bars that fall away into the ocean to allow limited exploration of the shallow water areas. The front half is more sharply cliffed, in order to force players to take one pathway through puzzle areas.</p>
+                
+                <p>Players start in the central amphitheatre/hub area in the centre of the turtle. Although the first puzzle will be immediately visible here, it will be tough to complete until further exploring the island. Coloured monoliths with animals on each face must be spun to face correct directions. Clues for this puzzle will be hidden around the rest of the island.</p></div>
+                
+                <div></div>
+                
+                <div><img src="mystlike/turtle%20map.png" alt="A bird's eye view of a virtual turtle-shaped island"></div>
+            
+            <div><img src="mystlike/monolith%20puzzle.png" alt="Three colored monoliths with animal symbols on their faces"></div>
+            <div></div>
+            <div class="pushleft"><p>The “gem” (key) here will be underneath a cage. Spinning all three monoliths to their correct positions will destroy the cage and allow access to the orb.
+            To either side of the hub area, a flipper peninsula with a winding path allows access to a puzzle through one side and exit through the other. My decision to design each puzzle path as a loop was influenced by my experience playing through the dungeons of Skyrim. To avoid unnecessary backtracking, most dungeons are loop-shaped, with a one-way exit that allows players to find their way back out once the central quest or puzzle is complete. This is more necessary in the design of large, sprawling areas, but means that turning back is not needed.</p>
+            
+            <p>To either side of the hub area, a flipper peninsula with a winding path allows access to a puzzle through one side and exit through the other. My decision to design each puzzle path as a loop was influenced by my experience playing through the dungeons of Skyrim. To avoid unnecessary backtracking, most dungeons are loop-shaped, with a one-way exit that allows players to find their way back out once the central quest or puzzle is complete. This is more necessary in the design of large, sprawling areas, but means that turning back is never needed.</p>
+                </div>
+                
+            <div class="pushright"><p>One of the flipper puzzles, to the left side of the starting hub, will have a path of variously coloured tiles that must be stepped on correctly to open the gate at the end and give access to the orb. Players will be introduced to the idea by seeing tiles of wrong colours with bones of previous adventurers on them to indicate they are harmful, and by the colour motif in the area indicating the desirable colour to step on. This yellow beetle is also a clue to the monolith puzzle seen earlier - the yellow monolith has to show the beetle face to be correct.</p>
+                
+            <p>As you can see, a bit of custom modeling was important to the vision I had of what this game would look like. I used 3D Builder, a Windows 10 low-poly designer made for 3D printing, to achieve the style I wanted. 3D Builder allows you to make meshes by smashing together basic 3D shapes, similar to AutoDesk TinkerCAD, and I found the resulting look really appealing. The desire to use custom models in this game also meant I had to get comfortable with defining collision boxes for my game so that players couldn't run right through my objects.</p></div>
+                
+            <div></div>
+                
+            <div><img src="mystlike/tile%20puzzle.png" alt="An aerial view of a puzzle with colored tiles and two yellow monoliths with beetles on them"></div>
+                
+            <div><img src="mystlike/combo%20puzzle.gif" alt="An animated GIF showing someone punching in combinations of symbols on a console in Unity and unlocking a door"></div>
+            
+            <div></div>
+                
+            <div class="pushleft"><p>The flipper puzzle to the right will require looking around the area to see a combination of shapes that must be pressed in order to open its door. An eye icon sunk into the wall where you can best see the solution will indicate this, and these eye icons will also be present in other areas to say, “look around here and find a collectible!” or “a clue to another puzzle is nearby!”</p>
+                
+            <p>I had so much fun coding this puzzle. I instantly knew that I wanted to have a user interface of some kind (the lights on the 'console') provide feedback as to which symbols had been pressed. I ended up making some responsive lights that change color in a few different ways - pushing a button sends a signal to the current light, and pressing three buttons in a row tells the lights they should start resetting and eventually turn off again.</p></div>
+            
+            </div>
+        
+        </div>
+    
+        <div id="footer"><div id="footercolor">Website by Denzelle Marcovicci for 289.101</div><div id="footerlogo"><img src="martian%20fullbody.svg" alt="logo of a small martian standing up"></div></div>
+    </body>
+
+</html>

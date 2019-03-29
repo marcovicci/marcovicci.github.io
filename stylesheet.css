@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    max-width: 50%;
+    text-align: right;
+    margin-top: 0;
+    font-size: 7vw;
+    color: #F7D712;
+    line-height: 9vw;
+}
+
+#titletxt {
+    margin-left: -35%;
+}
+
+#header {
+    margin-top: 0;
+    background-color: #28436E;
+    height: 18.5vw;
+    display: grid;
+    grid-template-columns: 32% 32% 36%;
+    padding: 5px;
+    border-bottom: 0.5vw dotted #11D6D2;
+}
+
+#header img {
+    width: 60%;
+    max-width: 300px;
+}
+
+#nav {
+    font-family: 'Sigmar One', cursive;
+    text-align: right;
+    font-size: 3vw;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: auto;
+    
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav span {
+    color: white;
+    text-decoration: line-through solid #2faced;
+}
+
+#wildbase {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: -2vw;
+    padding-bottom: 50px;
+}
+
+#homepage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: -2vw;
+    padding-bottom: 50px;
+}
+
+#mystlike {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: -2vw;
+    padding-bottom: 50px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+}
+
+.imgside {
+    text-align: center;
+}
+
+.textside {
+    max-width: 80%;
+}
+
+#wildbase img {
+    max-width: 90%;
+}
+
+h2 {
+    font-family: 'Sigmar One', cursive;
+    font-size: 4vw;
+    border-bottom: 0.3vw solid #000;
+    margin-bottom: 1vw;
+}
+
+h3 {
+    font-family: 'Sigmar One', cursive;
+    font-size: 2.5vw;
+    border-bottom: 0.3vw solid #000;
+    text-align: right;
+    margin-bottom: 1vw;
+}
+
+h4 {
+    font-family: 'Sigmar One', cursive;
+    font-size: 2.5vw;
+    border-bottom: 0.3vw solid #000;
+    text-align: left;
+    margin-bottom: 1vw;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 0px;
+}
+
+#footer img {
+    height: 90%;
+    max-height: 150px;
+}
+
+#footercolor {
+    background-color: #28436E;
+    height: 2vw;
+    border-top: 0.5vw dotted #11D6D2;
+    border-bottom: 30px solid #28436E;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.2vw;
+    color: #FFF;
+}
+
+#footerlogo {
+    text-align: right;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-bottom: 0px;
+    margin-right: 10%;
+}
+
+.byvideo {
+    display: grid;
+    grid-template-columns: 40% 5% 50%;
+}
+
+.byvideo2 {
+    display: grid;
+    grid-template-columns: 1% 50% 5% 40%;
+}
+
+.halftext {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+}
+
+.halftext img {
+    max-width: 90%;
+}
+
+.video {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.pushright {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.pushleft {
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
