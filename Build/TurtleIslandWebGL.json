@@ -1,6 +1,6 @@
 {
-"companyName": "Marcovicci",
-"productName": "mystlike",
+"companyName": "DefaultCompany",
+"productName": "Turtle Island WebGL",
 "dataUrl": "TurtleIslandWebGL.data.unityweb",
 "wasmCodeUrl": "TurtleIslandWebGL.wasm.code.unityweb",
 "wasmFrameworkUrl": "TurtleIslandWebGL.wasm.framework.unityweb",
