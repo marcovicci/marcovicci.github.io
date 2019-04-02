@@ -182,16 +182,6 @@ h4 {
     #mystlike {
         width: 80%;
     }
-    
-    .byvideo {
-    display: grid;
-    grid-template-columns: 50% auto;
-    }
-    
-    .byvideo div {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
 
     .halfwidth {
     display: grid;
@@ -201,11 +191,6 @@ h4 {
     .halfwidth div {
         padding-left: 5%;
         padding-right: 5%;
-    }
-    
-    .video {
-    margin-left: 10px;
-    text-align: center;
     }
     
 }
