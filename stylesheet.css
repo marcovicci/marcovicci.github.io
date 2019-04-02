@@ -65,6 +65,11 @@ h1 {
     padding-bottom: 50px;
 }
 
+#wildbase img {
+    border-radius: 10%;
+    max-width: 90%;
+}
+
 #homepage {
     margin-left: auto;
     margin-right: auto;
@@ -81,18 +86,6 @@ h1 {
     padding-bottom: 50px;
 }
 
-
-
-.imgside {
-    text-align: center;
-}
-
-
-
-#wildbase img {
-    max-width: 90%;
-}
-
 h2 {
     font-family: 'Sigmar One', cursive;
     font-size: 4vw;
@@ -105,7 +98,7 @@ h3 {
     font-size: 2.5vw;
     border-bottom: 0.3vw solid #000;
     text-align: right;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
 }
 
 h4 {
@@ -113,7 +106,7 @@ h4 {
     font-size: 2.5vw;
     border-bottom: 0.3vw solid #000;
     text-align: left;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
 }
 
 #footer {
@@ -150,15 +143,13 @@ h4 {
     margin-right: 10%;
 }
 
-
-
-.halftext img {
-    max-width: 90%;
-}
-
-.video {
-    margin-left: 10px;
-    text-align: center;
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+#gallery img {
+    max-width: 99%;
+    border-radius: 10%;
 }
 
 /* This @media call contains many of the grids for the website and divs that push text towards the center, so that making your window very small removes the grids entirely and aligns divs on top of each other. */
@@ -166,46 +157,55 @@ h4 {
     
     .about {
     display: grid;
-    grid-template-columns: 49% 2% 49%;
+    grid-template-columns: 50% auto;
+    }
+    
+    #gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+    
+    .about div {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #wildbase {
+        width: 80%;
+    }
+    
+    #homepage {
+        width: 80%;
+    }
+
+    #mystlike {
+        width: 80%;
     }
     
     .byvideo {
     display: grid;
-    grid-template-columns: 40% 5% 50%;
-    }
-
-    .byvideo2 {
-    display: grid;
-    grid-template-columns: 1% 50% 5% 40%;
-    }
-
-    .halftext {
-    display: grid;
-    grid-template-columns: 49% 2% 49%;
+    grid-template-columns: 50% auto;
     }
     
-    .pushright {
-    padding-left: 20px;
-    padding-top: 30px;
+    .byvideo div {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
-    .pushleft {
-    padding-right: 20px;
-    padding-top: 30px;
-    }
-    
-    #intro {
+    .halfwidth {
     display: grid;
     grid-template-columns: 50% auto;
+    }
+    
+    .halfwidth div {
+        padding-left: 5%;
+        padding-right: 5%;
     }
     
     .video {
     margin-left: 10px;
     text-align: center;
-    }
-    
-    .textside {
-    max-width: 80%;
     }
     
 }
