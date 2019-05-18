@@ -223,6 +223,14 @@ a.btn:hover {
     padding: 2vw;
 }
 
+.footer a {
+    color:#983EEB;
+}
+
+.footer a:hover {
+    color: white;
+}
+
 @media (min-width: 768px) 
 {  
     .header h1 {
