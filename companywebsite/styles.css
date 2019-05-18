@@ -1,0 +1,429 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+}
+
+.container {
+    background-color: #000;
+}
+
+.nav {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav a {
+    color: #21FF72;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.header {
+    height: 20vw;
+    background-image: linear-gradient(to right, #16755D, #00b461);
+    padding-top: 2px;
+    padding-bottom: auto;
+}
+
+.header img {
+    max-height: 20vw;
+}
+
+.titletxt {
+    padding-top: 1vw;
+    margin-left: -9.5vw;
+    transform: rotate(5deg);
+}
+
+.header h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #21FF72;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 8vw;
+    line-height: 7.5vw;
+    text-align: center;
+}
+
+.whatsnew {
+    background-image: linear-gradient(to bottom left, #180357, #570f8d);
+    height: auto;
+}
+
+.whatsnew h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #983EEB;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 8vw;
+    line-height: 7.5vw;
+    text-align: right;
+    margin-top: -1vw;
+    margin-right: -1vw;
+}
+
+.whatsnew a {
+    font-family: 'Open Sans', sans-serif;
+    color: #21FF72;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 6vw;
+}
+
+a.btn:hover {
+    color: white;
+}
+
+.whatsnew img {
+    height: 12vw;
+    margin-top: -1.5vw;
+}
+
+.infobox {
+    background-color: #FFF;
+    box-shadow: 10px 10px #000;
+    height: auto;
+    width: 80%;
+    margin-left: 1vw;
+    padding: 1vw;
+    margin-bottom: 2vw;
+}
+
+.infobox2 {
+    background-color: #FFF;
+    box-shadow: -10px 10px #000;
+    height: auto;
+    width: auto;
+    margin-left: 5.5vw;
+    padding: 0.5vw;
+    margin-bottom: 4vw;
+}
+
+.infobox3 {
+    background-color: #FFF;
+    padding: 1vw;
+}
+
+#mudokonpops {
+    height: auto;
+    background-image: linear-gradient(to top, #000, #212121);
+    padding: 1vw;
+}
+
+#mudokonpops > b {
+    font-family: 'Open Sans', sans-serif;
+    color: #983EEB;
+    font-weight: 900;
+    font-size: 4vw;
+    margin-top: 1vw;
+}
+
+#mudokonpops h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #21FF72;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 8vw;
+    line-height: 7.5vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+#mudokonpops img {
+    max-width: 25vw;
+    text-align: center;
+}
+
+.meats {
+    border-radius: 30%;
+}
+
+#products {
+    background-image: linear-gradient(to right, #16755D, #00b461);
+    height: auto;
+    border-top: 4vw black solid;
+    border-bottom: 4vw black solid;
+}
+
+#products_static {
+    background-color: #000;
+    border-top: 1vw black solid;
+    border-bottom: 1vw black solid;
+}
+
+#products_static img {
+    width: 100%;
+}
+
+#molluck {
+    background-image: linear-gradient(to left, #16755D, #00b461); 
+    height: auto;
+}
+
+#molluck h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #21FF72;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 8vw;
+    line-height: 7.5vw;
+    text-align: left;
+    margin-top: -1vw;
+}
+
+#molluck h3 {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-align: center;
+    padding-left: 2.5vw;
+}
+
+#molluck img {
+    border-radius: 30%;
+    max-width: 25vw;
+}
+
+#legal {
+    background-image: linear-gradient(to bottom left, #180357, #570f8d);
+    height: auto;
+}
+
+#legal .infobox3 {
+    padding: 2vw;
+    padding-bottom: -2vw;
+}
+
+#legal ol {
+    font-size: 2.5vw;
+    margin-left: -4vw;
+}
+
+.footnotes {
+    font-size: 1.8vw;
+}
+
+#legal h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #983EEB;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 7vw;
+    line-height: 7.5vw;
+    text-align: right;
+    margin-top: -1vw;
+    margin-right: 1vw;
+}
+
+.footer {
+    height: 8vw;
+    background-color: #000;
+    padding-top: 2vw;
+    padding-bottom: auto;
+    color: #21FF72;
+    text-align: right;
+    padding: 2vw;
+}
+
+@media (min-width: 768px) 
+{  
+    .header h1 {
+    font-size: 10vw;
+    margin-top: -1vw;
+    margin-left: 2vw;
+    line-height: 8.5vw;
+    }
+    
+    .whatsnew h2 {
+    text-align: center;
+    margin-top: 3vw;
+    }
+    
+    #legal {
+        font-size: 1.8vw;
+        padding: 1vw;
+    }
+    
+    #legal ol {
+        font-size: 1.8vw;
+    }
+    
+    #legal b {
+        font-size: 2vw;
+    }
+    
+    #legal .infobox3 {
+        padding-bottom: 1vw;
+    }
+    
+    .infobox {
+        margin-top: 1vw;
+        font-size: 2.2vw;
+    }
+    
+    .infobox2 {
+        font-size: 2.5vw;
+    }
+    
+    
+    
+    .meats {
+        margin-bottom: 1vw;
+    }
+    
+    .infobox3 {
+    background-color: #FFF;
+    padding: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5vw;
+}
+
+}
+
+@media (min-width: 992px) 
+{ 
+
+    .whatsnew, #mudokonpops {
+        background-image: none;
+    }
+    
+    .lgscreenwrapper {
+        background-image: linear-gradient(to bottom left, #180357, #570f8d);
+        padding-bottom: 5vw;
+        padding-right: 1vw;
+    }
+    
+    .lgscreenwrapper h2 {
+        font-size: 4vw;
+    }
+    
+    #mudokonpops h2 {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    
+    .infobox, .infobox3 {
+        margin: 1vw;
+        width: auto;
+        height: auto;
+    }
+    
+    .lgscreenwrapper .infobox3 {
+        margin-left: 3vw;
+    }
+    
+    .lgscreenwrapper img {
+        width: 15vw;
+        height: auto;
+    }
+    
+    .meats {
+        margin-bottom: 2vw;
+    }
+    
+    .tagline {
+        margin-bottom: -6vw;
+        margin-top: -6vw;
+        font-family: 'Open Sans', sans-serif;
+        color: #983EEB;
+        font-weight: 900;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    
+    .lgscreenwrapper .infobox3, .lgscreenwrapper .infobox {
+        font-size: 1.6vw;
+        padding: 1vw;
+    }
+    
+    #molluck h2, #legal h2 {
+        font-size: 4.5vw;
+    }
+    
+    #legal .footnotes, #legal ol {
+        font-size: 1.5vw;
+    }
+    
+    #legal b {
+        font-size: 1.15vw;
+    }
+    
+    ol {
+        padding-left: 6vw;
+    }
+    
+        .footer {
+    height: 5vw;
+    }
+    
+    
+}
+
+@media (min-width: 1200px) 
+{
+    
+    .header h1 {
+    font-size: 9vw;
+    margin-top: -1vw;
+    margin-left: 5vw;
+    line-height: 8.5vw;
+    }
+
+    #mudokonpops h2 {
+        font-size:2.8vw;
+        text-align: center;
+    }
+    
+    .lgscreenwrapper .infobox3, .lgscreenwrapper .infobox {
+        font-size: 1.5vw;
+    }
+    
+    .lgscreenwrapper img {
+        width: 13vw;
+        height: auto;
+
+    }
+    
+    .meats {
+        margin-bottom: 1vw;
+    }
+    
+    .tagline {
+        font-size: 2.5vw;
+        margin-bottom: -5vw;
+        margin-top: -4vw;
+    }
+    
+    #molluck .infobox2 {
+        margin-left: 2.5vw;
+        font-size: 2vw;
+    }
+    
+    #molluck img {
+        width: 20vw;
+    }
+    
+    #legal .footnotes, #legal ol, #legal b {
+        font-size: 0.8vw;
+    }
+    
+    #legal .infobox3 {
+        height: auto;
+        line-height: 50%;
+        padding: 1vw;
+    }
+    
+    .footnotes {
+        line-height: 20%;
+    }
+    
+    ol {
+        padding-left: 6vw;
+    }
+    
+    #molluck h2, #legal h2 {
+        font-size: 3vw;
+        margin-bottom: -2vw;
+        margin-top: -2vw;
+    }
+
+}
