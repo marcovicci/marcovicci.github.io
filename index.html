@@ -7,15 +7,64 @@
         <title>My Github Pages Site</title>
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <style>
+            
+            html, body {
+                scroll-behavior: smooth;
+            }
+            
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            
+            #about, #gallery, #contact {
+                height: 800px;
+                padding-top: 50px;
+            }
+            
+            #about, #contact {
+                background-color: #ccc;
+            }
+            
+            #nav {
+                background-color: #2faced;
+                color: #fff;
+                position: fixed;
+                height:25px;
+                padding-top: 25px;
+                top: 0;
+            }
+        
+        
+        </style>
+        
     </head>
     
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
     
-    <a href="gallery/big_1.jpg">
+    <div id="nav"><a href="#about">ABOUT</a> * <a href="#gallery">GALLERY</a> * <a href="#contact">CONTACT</a></div>
+    
+<div id="about"><h1>hi</h1>
+    
+    <p>blah blah</p></div>
+    
+    <div id="gallery">
+    
+    
+         <a href="gallery/big_1.jpg" data-fancybox="galleryimages" data-caption="hello">
 	<img src="gallery/small_1.jpg" alt="" />
-</a>
+    </a>
+    
+    <a href="gallery/big_2.jpg" data-fancybox="galleryimages" data-caption="hello">
+	<img src="gallery/small_2.jpg" alt="" />
+    </a>
+        
+    </div>
+    
+    <div id="contact"> CONTACT ME </div>
+    
     
     
     	<!-- JS -->
